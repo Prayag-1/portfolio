@@ -182,6 +182,37 @@ svg {
   transform: translateY(-2px);
 }
 
+.skill-row {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  color: #9a968d;
+  padding: 16px;
+  transition:
+    border-color 200ms ease-out,
+    color 200ms ease-out,
+    transform 200ms ease-out;
+}
+
+.skill-row:hover {
+  border-color: #e8a54a;
+  color: #f2f0ea;
+  transform: translateY(-2px);
+}
+
+.skill-row p {
+  color: #9a968d;
+  font-family: "Geist Mono", "SFMono-Regular", Consolas, monospace;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.skill-row span {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
 .client-wordmark {
   color: #f2f0ea;
   filter: grayscale(1);
@@ -219,6 +250,22 @@ svg {
 
 .gallery-tile:hover img {
   transform: scale(1.03);
+}
+
+.gallery-placeholder {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.08), transparent 34%),
+    #17171a;
+}
+
+.gallery-placeholder > div {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+  background-size: 28px 28px;
+  height: 100%;
+  opacity: 0.6;
+  width: 100%;
 }
 
 .gallery-tile figcaption {

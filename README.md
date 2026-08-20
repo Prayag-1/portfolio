@@ -1,4 +1,4 @@
-# Alex Morgan Portfolio
+# Prayag Nepal Portfolio
 
 Static portfolio site built with Vite, React, TypeScript, and Tailwind CSS.
 
@@ -51,18 +51,19 @@ Use the form ID from your Formspree dashboard.
 
 Most placeholder content lives in `src/App.tsx`:
 
-- `projects`: selected work cards
-- `clients`: client strip names
+- `featuredProjects` and `allProjects`: selected work cards and project list
 - `credentials`: degree and certifications
 - `roles`: rotating hero words
 - `stackItems`: tech stack icons
+- `skills`: categorized skills section
+- `experiences`: internship and freelance experience
 - `galleryItems`: bento gallery slots
 - contact links inside `ContactSection`
 - hero name and positioning copy inside `HomePage`
 
 Also update `index.html` for title, description, and Open Graph copy.
 
-Gallery placeholder SVGs live in `public/gallery-*.svg`.
+Gallery cells are gray placeholders in `GallerySection`; replace them with real project screenshots as assets become available.
 
 ## Update SEO Files
 
