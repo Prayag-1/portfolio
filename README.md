@@ -54,10 +54,15 @@ Most placeholder content lives in `src/App.tsx`:
 - `projects`: selected work cards
 - `clients`: client strip names
 - `credentials`: degree and certifications
+- `roles`: rotating hero words
+- `stackItems`: tech stack icons
+- `galleryItems`: bento gallery slots
 - contact links inside `ContactSection`
 - hero name and positioning copy inside `HomePage`
 
 Also update `index.html` for title, description, and Open Graph copy.
+
+Gallery placeholder SVGs live in `public/gallery-*.svg`.
 
 ## Update SEO Files
 

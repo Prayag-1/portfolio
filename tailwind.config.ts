@@ -5,20 +5,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        paper: "#FAFAFA",
-        surface: "#FFFFFF",
-        line: "#E5E5E7",
-        ink: "#1D1D1F",
-        muted: "#6E6E73",
-        accent: "#3452FF",
-        available: "#2FA84F",
+        paper: "#101012",
+        surface: "#17171A",
+        line: "rgba(255,255,255,0.08)",
+        "line-strong": "rgba(255,255,255,0.18)",
+        ink: "#F2F0EA",
+        muted: "#9A968D",
+        accent: "#E8A54A",
+        available: "#6FA287",
       },
       fontFamily: {
-        sans: ['"Geist"', '"Geist Sans"', "Arial", "sans-serif"],
+        sans: ['"General Sans"', "Arial", "sans-serif"],
         mono: ['"Geist Mono"', '"SFMono-Regular"', "Consolas", "monospace"],
       },
       boxShadow: {
-        quiet: "0 18px 40px rgba(29, 29, 31, 0.06)",
+        quiet: "0 18px 40px rgba(0, 0, 0, 0.22)",
       },
       spacing: {
         18: "4.5rem",
