@@ -1,0 +1,19 @@
+:focus-visible { outline: 2px solid #4F46E5; outline-offset: 3px; }
+.button, .text-link, .nav-contact, .menu-button, .certificate-thumb, .modal-close, .life-slider-dots button, .life-slider-controls button, .contact-form button { min-height: 44px; }
+.form-field-error { display: block; margin-top: 6px; color: #ef4444; font-size: 13px; line-height: 1.4; font-weight: 400; }
+.contact-form input[aria-invalid="true"], .contact-form textarea[aria-invalid="true"] { border-color: #ef4444; }
+.privacy-copy { max-width: 720px; border-top: 1px solid var(--line); padding-top: 38px; }
+.privacy-copy h2 { margin: 32px 0 8px; font-size: 1.2rem; letter-spacing: -.03em; }
+.privacy-copy h2:first-child { margin-top: 0; }
+.privacy-copy p { color: var(--muted); margin: 0; }
+.privacy-copy a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 639px) {
+  .site-header nav { display: none; }
+  .site-header nav.open { display: flex; }
+  .menu-button { display: block; }
+  .site-footer { grid-template-columns: 1fr; }
+  .site-footer > div:first-child, .footer-social { grid-column: auto; justify-self: start; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .1s !important; animation-iteration-count: 1 !important; transition-duration: .1s !important; transform: none !important; scroll-behavior: auto !important; }
+}

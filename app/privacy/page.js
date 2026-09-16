@@ -1,0 +1,7 @@
+import PageIntro from "@/components/page-intro";
+
+export const metadata = { title: "Privacy Policy — Prayag Nepal" };
+
+export default function PrivacyPolicy() {
+  return <PageIntro className="page-shell inner-page privacy-page"><header className="page-header"><p className="kicker">Privacy</p><h1>Privacy Policy</h1><p className="lede">A clear note about the information shared through this site.</p></header><section className="privacy-copy"><h2>What data is collected</h2><p>If you use the contact form, it collects your name, email address, and message so your enquiry can be received.</p><h2>How it is used</h2><p>This information is used only to respond to enquiries and continue the conversation you started.</p><h2>Third parties</h2><p>Your data is not sold to third parties. The contact form is handled by <a href="https://formspree.io/legal" target="_blank" rel="noopener noreferrer">Formspree</a>, whose own policies explain how it processes form submissions.</p><h2>Contact</h2><p>For questions about this policy, email <a href="mailto:nepalprayag880@gmail.com">nepalprayag880@gmail.com</a>.</p></section></PageIntro>;
+}

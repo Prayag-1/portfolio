@@ -1,75 +1,35 @@
-# Prayag Nepal Portfolio
+# Prayag Nepal — Portfolio
 
-Static portfolio site built with Vite, React, TypeScript, and Tailwind CSS.
+Personal portfolio and freelance showcase site.
+Built with Next.js, Tailwind CSS, and Framer Motion.
+Deployed on Vercel.
 
-## Setup
+## Getting started
 
 ```bash
 npm install
+cp .env.local.example .env.local
+# Add your Formspree URL to .env.local
 npm run dev
 ```
 
-The local dev server defaults to `http://localhost:5173`.
+## Environment variables
 
-## Production Build
-
-```bash
-npm run build
-```
-
-The static output is generated in `dist/`.
+`NEXT_PUBLIC_FORMSPREE_URL` — your Formspree form endpoint.
 
 ## Deployment
 
-Vercel is configured with `vercel.json`.
+Push to GitHub, connect the repository to Vercel, set `NEXT_PUBLIC_FORMSPREE_URL` in Vercel environment variables, and deploy. Vercel enforces HTTPS automatically.
 
-Recommended Vercel settings:
+## Image folders
 
-- Framework preset: Vite
-- Build command: `npm run build`
-- Output directory: `dist`
-- Install command: `npm install`
+- `/public/gallery/profile/` — headshot
+- `/public/gallery/clients/` — client logos
+- `/public/gallery/certifications/` — certificate images
+- `/public/gallery/life/` — fitness photos
 
-Netlify also works with zero config when using:
+Drop real images into these folders and redeploy.
 
-- Build command: `npm run build`
-- Publish directory: `dist`
+## Dependency audit
 
-The Netlify SPA fallback is handled by `public/_redirects`.
-
-## Update Formspree
-
-Replace the placeholder Formspree endpoint in `src/App.tsx`:
-
-```ts
-const formEndpoint = "https://formspree.io/f/YOUR_FORM_ID";
-```
-
-Use the form ID from your Formspree dashboard.
-
-## Update Content
-
-Most placeholder content lives in `src/App.tsx`:
-
-- `featuredProjects` and `allProjects`: selected work cards and project list
-- `credentials`: degree and certifications
-- `roles`: rotating hero words
-- `stackItems`: tech stack icons
-- `skills`: categorized skills section
-- `experiences`: internship and freelance experience
-- `galleryItems`: bento gallery slots
-- contact links inside `ContactSection`
-- hero name and positioning copy inside `HomePage`
-
-Also update `index.html` for title, description, and Open Graph copy.
-
-Gallery cells are gray placeholders in `GallerySection`; replace them with real project screenshots as assets become available.
-
-## Update SEO Files
-
-Before deploying publicly, replace `https://example.com` in:
-
-- `public/robots.txt`
-- `public/sitemap.xml`
-
-Use the final production domain from Vercel or Netlify.
+No unused dependencies were found or removed in this pass. Added `@vercel/analytics` and `@vercel/speed-insights` for the requested deployment analytics.

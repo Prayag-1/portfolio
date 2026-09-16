@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#101012"/>
-  <rect x="72" y="72" width="1056" height="486" rx="18" fill="#17171A" stroke="rgba(255,255,255,0.1)"/>
-  <circle cx="122" cy="136" r="6" fill="#6FA287"/>
-  <text x="146" y="146" fill="#9A968D" font-family="Consolas, monospace" font-size="23" letter-spacing="3">AVAILABLE FOR WORK</text>
-  <text x="120" y="278" fill="#F2F0EA" font-family="Arial, sans-serif" font-size="78" font-weight="500">Hey, I'm Prayag Nepal</text>
-  <text x="120" y="374" fill="#9A968D" font-family="Arial, sans-serif" font-size="54" font-weight="500">and I'm a </text>
-  <text x="420" y="374" fill="#E8A54A" font-family="Arial, sans-serif" font-size="54" font-weight="500">Full Stack Developer</text>
-  <line x1="120" y1="454" x2="520" y2="454" stroke="#E8A54A" stroke-width="4"/>
-  <text x="120" y="510" fill="#9A968D" font-family="Arial, sans-serif" font-size="28">Kathmandu-based automation, AI, and full-stack work.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#f7f7f5"/><rect x="72" y="74" width="1056" height="482" rx="24" fill="#3347a8"/><text x="130" y="260" fill="#f7f7f5" font-family="Arial,sans-serif" font-size="52">Prayag</text><text x="130" y="360" fill="#f7f7f5" font-family="Arial,sans-serif" font-size="84" font-weight="700">Web developer</text><text x="130" y="435" fill="#d8dcf2" font-family="Arial,sans-serif" font-size="38">Kathmandu, Nepal</text></svg>
