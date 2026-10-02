@@ -53,7 +53,7 @@ export default function CookieConsent() {
         boxShadow: "0 12px 35px rgba(0,0,0,.18)"
       }}
     >
-      <p style={{ margin: 0 }}>This site doesn&apos;t use tracking cookies. The contact form is powered by Formspree. Anonymous visit analytics via Vercel Analytics — no personal data collected.</p>
+      <p style={{ margin: 0 }}>The Tawk.to chat widget may use cookies and processes messages you send. The contact form is powered by Formspree, and anonymous visit analytics are provided by Vercel Analytics.</p>
       <button
         type="button"
         onClick={dismiss}
