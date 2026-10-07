@@ -153,9 +153,9 @@ main { min-height:calc(100vh - 390px); }
 .home-clients-header .kicker { margin-bottom:20px; }
 .home-clients-header h2 { max-width:620px; margin:0; color:var(--ink); font-size:clamp(2.45rem, 4.7vw, 4.8rem); font-weight:600; letter-spacing:-.065em; line-height:.94; }
 .home-clients-header > p { max-width:520px; margin:4px 0 0; color:var(--muted); font-size:1.04rem; line-height:1.65; }
-.home-client-marquee { overflow:hidden; margin:0 -18px; padding:1px 18px 8px; mask-image:linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
+.home-client-marquee { overflow-x:auto; overflow-y:hidden; margin:0 -18px; padding:1px 18px 8px; touch-action:pan-x; -webkit-overflow-scrolling:touch; scrollbar-width:thin; scrollbar-color:var(--muted) transparent; mask-image:linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
 .home-client-track { display:flex; width:max-content; animation:home-client-marquee 34s linear infinite; }
-.home-client-marquee:hover .home-client-track,.home-client-marquee:focus-within .home-client-track { animation-play-state:paused; }
+.home-client-marquee:focus-visible { outline:2px solid var(--ink); outline-offset:3px; }
 .home-client-logo { display:flex; flex:0 0 168px; width:168px; height:142px; align-items:center; justify-content:center; margin-right:14px; padding:22px; border:1px dashed #dededb; background:rgba(255,255,255,.26); }
 .home-client-logo img { display:block; max-width:100%; max-height:72px; object-fit:contain; }
 .home-client-logo .image-text-fallback { text-align:center; font-size:.82rem; }
